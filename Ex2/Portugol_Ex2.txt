@@ -7,8 +7,7 @@ programa
 		inteiro anoNascimento
 		leia (anoNascimento)
 		escreva("Qual é o ano atual?\n")
-		inteiro anoAtual
-		leia (anoAtual)
+		inteiro Calendario.Ano_atual
 
 		escreva("\n")
 

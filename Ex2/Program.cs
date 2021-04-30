@@ -8,8 +8,7 @@ namespace Ex2
         {
             Console.WriteLine("Qual é o seu ano de nascimento?");
             int anoNascimento= int.Parse(Console.ReadLine());
-            Console.WriteLine("Qual é o ano atual?");
-            int anoAtual= int.Parse(Console.ReadLine());
+            int anoAtual= DateTime.Now.Year;
 
             int idade= anoAtual - anoNascimento;
             int idadeSemanas= idade* 52;
