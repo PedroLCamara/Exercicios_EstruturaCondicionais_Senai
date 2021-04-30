@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Qual é o seu ano de nascimento?\n")
+		inteiro anoNascimento
+		leia (anoNascimento)
+		escreva("Qual é o ano atual?\n")
+		inteiro anoAtual
+		leia (anoAtual)
+
+		escreva("\n")
+
+		inteiro idade = anoAtual - anoNascimento 
+		inteiro idadeSemanas = idade* 52
+
+		escreva("Sua idade em ano é igual a "+idade+". Sua idade em semanas é igual a "+idadeSemanas)
+	}
+}

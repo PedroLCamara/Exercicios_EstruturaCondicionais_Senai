@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Digite aqui seu salário para que possa ser calculado o reajuste:\n")
+
+		inteiro salario
+		leia(salario)
+		inteiro segundoSalario = ((salario/100)*30)+salario 
+
+		escreva("\n")
+
+		se(salario<=500){
+			escreva("Após o reajuste, seu salário foi modificado para "+segundoSalario+", houve um aumento de 30%\n") 
+		}senao{
+			escreva("Salários superiores a 500 não são elegíveis ao reajuste")
+		}
+
+		
+	}
+}

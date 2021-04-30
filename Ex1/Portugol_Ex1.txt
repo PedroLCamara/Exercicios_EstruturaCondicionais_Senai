@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Insira sua idade em anos:\n")
+		inteiro idadeAnos
+		leia (idadeAnos)
+
+		inteiro idadeMeses = idadeAnos*12
+		inteiro idadeDias = idadeAnos*365
+		inteiro idadeHoras= idadeDias*24
+		inteiro idadeMinutos= idadeHoras*60
+
+		escreva("\n")
+
+		escreva("Sua idade em meses é:"+idadeMeses+"\n")
+		escreva("Sua idade em dias é:"+idadeDias+"\n")
+		escreva("Sua idade em horas é:"+idadeHoras+"\n")
+		escreva("Sua idade em minutos é:"+idadeMinutos+"\n")
+	}
+}
